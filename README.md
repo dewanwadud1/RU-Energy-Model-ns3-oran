@@ -5,8 +5,6 @@ A lightweight, RU‑centric energy model for **ns‑3** that plugs into the **NI
 - `OranRuPowerModel`: a parametric RU power/current model (PA efficiency, per‑TRX overheads, sleep mode, supply/cooling losses, optional mmWave overheads).
 - `OranRuDeviceEnergyModel`: an `ns3::DeviceEnergyModel` that reports current to an `EnergySource`, using **live** TxPower from `LteEnbPhy` when available or a `TxPowerDbm` fallback.
 
-The accompanying paper `Radio_Unit_Energy_Modeling_for_Open_RAN_in_ns3_oran-3.pdf` describes the math, assumptions, and validation.
-
 ---
 
 ## Repository layout / placement
